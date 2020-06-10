@@ -1,0 +1,2 @@
+conda activate book_search_env
+python tmp.py

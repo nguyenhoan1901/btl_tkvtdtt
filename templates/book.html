@@ -1,0 +1,41 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<div id="header-wp" class="clearfix">
+    <div class="wp-inner">
+        <a href="?page=home" title="" id="logo" class="fl-left">SEARCH BOOK</a>
+        <div id="btn-respon" class="fl-right"><i class="fa fa-bars" aria-hidden="true"></i></div>
+    </div>
+</div>
+<div id="content2">
+    <div class="section infotop" id="info-product-wp">
+        <div class="section-detail clearfix infotop2">
+            <div class="thumb fl-left">
+                <img src="{{book['images']}}" alt="">
+            </div>
+            <div class="detail fl-right">
+                <h3 class="title">{{book['title']}}</h3>
+                <p class="price">{{book['price']}}đ</p>
+                <p class="product-code">Thể loại: <span>{{book['category']}} - {{book['sub_category']}}</span></p>
+                <div class="desc-short">
+                    <p class="product-code">Tác giả: <span>{{book['author']}}</span></p>
+                </div>
+                <div class="num-order-wp">
+                    <p class="product-code">Ngày xuất bản: <span>{{book['datePublished']}}</span></p>
+                </div>
+                <p class="product-code">Số trang: <span>{{book['numberOfPages']}}</span></p>
+            </div>
+        </div>
+    </div>
+    <div class="section" id="desc-wp">
+        <div class="section-head">
+            <h3 class="section-title1">Mô tả về sách</h3>
+        </div>
+        <div class="section-detail">
+            <p>{{book['description']}}</p>
+        </div>
+    </div>
+</div>
+
+{% endblock %}

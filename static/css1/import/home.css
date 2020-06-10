@@ -1,0 +1,78 @@
+/*MAIN CONTENT*/
+#sidebar{ width: 22.667%; padding-top: 15px;}
+#sidebar2{ width: 15%; padding-top: 15px; border-left: 1px solid #ddd;}
+#content{
+    width: 62%;
+    padding: 15px 20px;
+    border-left: 1px solid #ddd;
+}
+#content2{
+    width: 790px;
+    padding: 15px 20px;
+    margin: 0px auto;
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+}
+#main-menu-wp{ padding-top: 15px;}
+#main-menu-wp .list-item li a{
+    display: block;
+    color: #333;
+    padding: 8px 20px;
+    line-height: 21px;
+}
+#main-menu-wp .list-item li.active a{
+    font-family: 'Roboto Medium';
+    font-weight: normal;
+    color: #c10000;
+}
+.section-title{
+    padding: 20px 0px;
+    font-size: 13px;
+}
+.section-title1{
+    padding: 20px 0px;
+    font-size: 28px;
+    border-bottom: 1px solid #ddd;
+    width: 27%;
+}
+.list-cat .list-item li{
+    float: left;
+    width: 47.5%; 
+    margin-right: 2%;
+    margin-bottom: 4%;
+    border: 1px solid #bdbdbd;
+    height: 170px;
+}
+.list-cat .list-item li:nth-child(4n){ margin-right: 0;}
+.list-cat .list-item li .title{
+    display: block;
+    padding: 10px 0px 5px 0px;
+    color: #333;
+    font-family: 'Roboto Medium';
+    font-weight: normal;
+}
+.list-cat .list-item li .thumb{ display: block; width: 30%;}
+.list-cat .list-item li .price{
+    font-family: 'Roboto Medium';
+    font-weight: normal;
+    color: #c10000;
+    font-size: 13px;
+    line-height: 18px;
+}
+.noidung{
+    width: 70%;
+}
+.text-search{
+    padding: 40px 0px 0px 100px;
+    font-size: 18px;
+}
+.search2{
+    margin-bottom: 30px;
+}
+.infotop{
+    border-bottom: 1px solid #ddd;
+
+}
+.infotop2{
+    margin-bottom: 25px;
+}
